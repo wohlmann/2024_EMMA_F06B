@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+	<title>2024_EMMA_F06B</title>
     <style type="text/css">
         html,
         body {
             height: 100%;
             margin: 0;
         }
-
         .wrapper {
             display: flex;
             flex-direction: column;
@@ -17,13 +17,11 @@
             height: 100%;
             background-color: #000000;
         }
-
         .logo {
             margin-top: 20px;
             margin-bottom: 10px;
             text-align: center;
         }
-
 		.viewers {
 			display: flex;
 			justify-content: center; /* Align items to the center for equal spacing */
@@ -33,7 +31,6 @@
 			padding-top: 20px;
 			box-sizing: border-box;
 		}
-
 		.viewer-container {
 			display: flex;
 			flex-direction: column;
@@ -43,7 +40,6 @@
 			padding: 0 5px; /* Half of the total spacing between viewers on each side */
 			box-sizing: border-box;
 		}
-
         .viewer {
             width: 100%; /* Viewer should take up the full width of the .viewer-container */
             height: calc(100% - 40px); /* Reserve 40px for the header */
@@ -51,7 +47,6 @@
             border: 1px solid #D3D3D3;
             box-sizing: border-box;
         }
-
         h2 {
             color: #D3D3D3;
             font-family: Arial, sans-serif;
@@ -62,7 +57,6 @@
         }
     </style>
 </head>
-
 <body>
     <div class="wrapper">
         <div class="logo">
@@ -120,7 +114,6 @@
             minZoomImageRatio: 0.5,
             showNavigationControl: false
         });
-
         viewer1.scalebar({
             type: OpenSeadragon.ScalebarType.MICROSCOPY,
             pixelsPerMeter: 240560000,
